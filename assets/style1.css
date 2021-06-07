@@ -1,6 +1,7 @@
 body {
     background-color:#00C9CC;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 /* Navbar container */
@@ -9,6 +10,7 @@ body {
     background-color:#391659;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
+    flex-wrap: wrap;
   }
   
   /* Links inside the navbar */
@@ -71,12 +73,53 @@ body {
     display: block;
   }
 
-footer {
-   
-    padding: 40px 35px;
+
+  .maincontent {
+    width: 1080px;
+    padding: 10px;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
+    margin-left: 150px;
+    align-items: center;
+
+  }
+  .myprojects {
+    width: 600px;
+    display: flex;
+    flex-flow: column;
+    margin-left: 150px;
+    margin-top: 10px;
+
+  }
+  .contactme li  {
+  padding:10px;
+  text-align:center;
+  list-style: none;
+   
+  }
+.contactme h2  {
+  text-align: center;
+}
+
+  #lakyn {
+  width: 300px;
+  height: 300px;
+ align-items: center;
+}
+
+
+#lakyn2 {
+  width: 560px;
+  height: 400px;
+  margin-left: 550px;
+
+  
+}
+
+  
+#footer {
+  padding-top: 20px;
+  padding: 20px;
+  text-align: center;
+  
   }
   
