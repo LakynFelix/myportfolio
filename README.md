@@ -7,6 +7,6 @@ and are currentlty working on with working links to each running project on gith
 Lakyn Felix Profil URL : https://lakynfelix.github.io/myportfolio/ 
 
 
-![Uploading image.png…]
+![image](https://user-images.githubusercontent.com/84104126/120956157-efbdb400-c720-11eb-99f2-642374aa1d26.png)
 
       
