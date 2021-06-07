@@ -1,8 +1,16 @@
 body {
     background-color:#00C9CC;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    background-size: cover;
 }
+
+p {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: bolder;
+  line-height: 1.1cm;
+}
+ 
 
 /* Navbar container */
 .navbar {
@@ -11,13 +19,15 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding: 15px;
     flex-wrap: wrap;
+    justify-content: right;
+
   }
   
   /* Links inside the navbar */
   .navbar a {
     float: right;
-    font-size: ;
-    color: white;
+    font-size: 20px;
+    color: khaki;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,10 +41,11 @@ body {
   
   /* Dropdown button */
   .dropdown .dropbtn {
-    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
     border: none;
     outline: none;
-    color: white;
+    color: khaki;
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit; 
@@ -42,13 +53,13 @@ body {
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color:#2A5EA8;
+    background-color:#00C9CC;
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #391659;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -56,40 +67,60 @@ body {
   
   .dropdown-content a {
     float: none;
-    color: black;
+    color:khaki;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
   }
   
-  
-  .dropdown-content a:hover {
-    background-color:#2A5EA8;
-  }
-  
-  /* Show the dropdown menu on hover */
+
+
   .dropdown:hover .dropdown-content {
     display: block;
   }
 
 
+/* Header */
+ h1 {
+ color: #391659;
+ text-decoration-line:underline;
+ text-decoration-color: khaki;
+  font-size: 45px;
+  font-style: italic;
+ }
+
+
+ /* Main Content */
   .maincontent {
-    width: 1080px;
     padding: 10px;
     display: flex;
-    margin-left: 150px;
-    align-items: center;
+    flex-flow: row;
+    margin-left: 120px;
+  text-align: center;
+padding-bottom: 50px;
 
   }
+
+   /* My Projects Section */
+
   .myprojects {
+float: right;
+    padding: 50px;
     width: 600px;
     display: flex;
     flex-flow: column;
     margin-left: 150px;
     margin-top: 10px;
-
+    background-color:#391659;
+    color: khaki;
   }
+
+
+
+
+   /* Contact Me Section*/
+
   .contactme li  {
   padding:10px;
   text-align:center;
@@ -98,28 +129,71 @@ body {
   }
 .contactme h2  {
   text-align: center;
+
 }
 
   #lakyn {
   width: 300px;
   height: 300px;
- align-items: center;
+ align-items: left;
 }
 
 
 #lakyn2 {
-  width: 560px;
-  height: 400px;
-  margin-left: 550px;
+  width: 660px;
+  height: 420px;
+  align-items: center;
 
   
 }
 
-  
+#maso   {
+  width: 280px;
+  height: 340px;
+}
+
+#run   {
+  width: 280px;
+  height: 340px;
+}
+
+   /* Footer Section  */
+
 #footer {
+  background-color:#391659;
+  flex:wrap;
   padding-top: 20px;
   padding: 20px;
   text-align: center;
+  color:#00C9CC;
+  justify-content:center;
   
   }
+
   
+/* Width at 1024px and below */
+@media screen and (max-width: 1024px) {
+  #maincontent,
+  #myprojects {
+    width: 100%;
+  }
+
+}
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+ 
+  #maincontent,
+  #myprojects {
+    width: 100%;
+  }
+}
+
+  /* Width at 480px and below */
+@media screen and (max-width: 480px) {
+
+  #maincontent,
+  #myprojects {
+    width: 100%;
+  }
+}
