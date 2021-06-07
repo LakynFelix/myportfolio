@@ -144,12 +144,16 @@ float: right;
   height: 420px;
   align-items: center;
 
-  
 }
+
 
 #maso   {
   width: 280px;
-  height: 340px;
+  height: 340px; 
+}
+
+.maso:hover {
+  flex-grow: 50%;
 }
 
 #run   {
