@@ -180,20 +180,19 @@ justify-content:center;
 
 /* Width at 1024px and below */
 @media screen and (max-width: 1024px) {
- body {
-   background-color: rgb(35, 115, 146);
- }
- .navbar {
-  width: 100%;
-}
-  #maincontent,
-  #myprojects,
-  #contactme {
-    width: 100%;
-    padding: 20px;
+  body {
+    background-color: rgb(35, 115, 146);
   }
-
-}
+  .navbar {
+   width: 100%;
+ }
+   #maincontent,
+   #myprojects,
+   #contactme {
+     width: 100%;
+     padding: 20px;
+   }
+ }
 
 /* Width at 768px and below */
 @media screen and (max-width: 768px) {
