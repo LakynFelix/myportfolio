@@ -23,7 +23,6 @@ color:black;
   padding: 15px;
   flex-wrap: wrap;
   justify-content: right;
-
 }
 
 /* Links inside the navbar */
@@ -159,7 +158,7 @@ height: 340px;
 
 
 
-#run   {
+#run ,#discover , #daily{
 width: 280px;
 height: 340px;
 }
